@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="navbar " style="position: fixed; z-index: 3; width: 100%;">
+   
+      <a style="background-color: #009688; margin-right: 10px; padding: 10px 16px; color: white;">
+        <i class="fa-solid fa-house fa-xxs logo" style="color: white; "></i
+        >Logo</a>
+  
+      <input
+        style="display: none"
+        type="checkbox"
+        id="hamburger-toggle"
+        class="hamburger-checkbox"
+      />
+      <label for="hamburger-toggle" class="hamburger-icon">
+        <i class="fa-solid fa-bars" style="color: #fff; margin-right: 15px"></i>
+      </label>
+
+      <ul style="flex: 1;" class="nav-list">
+        <li>Team</li>
+        <li>Work</li>
+        <li>Price</li>
+        <li>Contact</li>
+        <li class="hidden-search" style="visibility: hidden">Search</li>
+      </ul>
+
+      <i
+        class="fa-solid fa-magnifying-glass search"
+        style="color: #fff; margin-right: 15px"
+      ></i>
+    </nav>
+
+    <div class="banner" style="position: relative">
+      <img
+        style="width: 100%; height: 60vh"
+        src="./images/sailboat.jpg"
+        alt=""
+      />
+      <button
+        style="
+          position: absolute;
+          top: 90%;
+          right: 75%;
+          transform: translate(-50%, -50%);
+          padding: 20px;
+          font-size: 20px;
+          background-color: black;
+          color: white;
+          border: none;
+        "
+      >
+        LEARN W3.CSS
+      </button>
+    </div>
+
+    <div class="team">
+        <h2 style="font-size: xx-large; font-weight: 100; margin-top: 50px;">OUR TEAM</h2>
+        <p style="margin-top: 20px; color: black;">Meet the team - our office rats:</p>
+        <div class="team-members">
+            <div class="team-card">
+                <img src="images/avatar.jpg" alt="team-member">
+                <h3>Johnny Walker</h3>
+                <p>Web Designer</p>
+            </div>
+            <div class="team-card">
+                <img src="images/avatar.jpg" alt="team-member">
+                <h3>Rebecca Flex</h3>
+                <p>Support</p>
+            </div>
+            <div class="team-card">
+                <img src="images/avatar.jpg" alt="team-member">
+                <h3>Jan Ringo</h3>
+                <p>Boss man</p>
+            </div>
+            <div class="team-card">
+                <img src="images/avatar.jpg" alt="team-member">
+                <h3>Kai Ringo</h3>
+                <p>Fixer</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="works">
+        <div class="work1">
+            <h2 style="font-weight: 100;">Our Work</h2>
+            <p style="font-size: 14px; margin-top: 15px;">Lorem ipsum dolor sit amet consectetur, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae quo harum accusamus animi dicta consectetur aliquam enim. Voluptatum aliquam quidem ab dolores animi, quae delectus, voluptates aspernatur saepe dolorem repellendus. adipisicing elit. Corrupti blanditiis perferendis corporis quae. Culpa quis vel illum dolore quam deserunt , quia amet velit.</p>
+        </div>
+      <div class="work2">
+        <div class="content">
+        <img style=" width:inherit"src="./images/snow.jpg" alt="">
+        <h4 style="font-weight: 100; padding: 10px;">Customer 1 </h4>
+        <h5 style="font-weight: 100; padding: 10px;">Trade</h5>
+        <p style="font-weight:100; padding: 5px 10px; ">Blablabla</p>
+        <p style="font-weight:100; padding: 5px 10px; ">Blablabla</p>
+        <p style="font-weight:100; padding: 5px 10px; ">Blablabla</p>
+        <p style="font-weight:100; padding: 5px 10px; ">Blablabla</p>
+       
+      </div>
+    </div>
+
+    <div class="work2">
+        <div class="content">
+        <img style=" width:inherit"src="./images/lights.jpg" alt="">
+        <h4 style="font-weight: 100; padding: 10px;">Customer 1 </h4>
+        <h5 style="font-weight: 100; padding: 10px;">Trade</h5>
+        <p style="font-weight:100; padding: 5px 10px; ">Blablabla</p>
+        <p style="font-weight:100; padding: 5px 10px; ">Blablabla</p>
+        <p style="font-weight:100; padding: 5px 10px; ">Blablabla</p>
+        <p style="font-weight:100; padding: 5px 10px; ">Blablabla</p>
+       
+      </div>
+    </div>
+    <div class="work2">
+        <div class="content">
+        <img style=" width:inherit"src="./images/mountains.jpg" alt="">
+        <h4 style="font-weight: 100; padding: 10px;">Customer 1 </h4>
+        <h5 style="font-weight: 100; padding: 10px;">Trade</h5>
+        <p style="font-weight:100; padding: 5px 10px; ">Blablabla</p>
+        <p style="font-weight:100; padding: 5px 10px; ">Blablabla</p>
+        <p style="font-weight:100; padding: 5px 10px; ">Blablabla</p>
+        <p style="font-weight:100; padding: 5px 10px; ">Blablabla</p>
+       
+      </div>
+    </div>
+    </div>
+
+    
+    <div class="price-title">
+      <h2>PRICING</h2>
+      <p>Choose a pricing plan that fits your needs</p>
+    </div>
+    <div class="price-container">
+      <div class="pricing-content">
+        <ul class="list">
+          <li class="basic">Basic</li>
+          <li><strong>10GB</strong> Storage</li>
+          <li><strong>10</strong> Emails</li>
+          <li><strong>10</strong> Domains</li>
+          <li><strong>Endless</strong> Support</li>
+          <li><strong>$</strong>10 <br><br><span>per month</span></li>
+          
+          <li  style="background-color: #f0f0f0;">
+            <button style="padding: 15px; background-color: #009688; color: white; border: none; cursor: pointer;"><i class="fa-solid fa-check"></i>Sign Up</button>
+          </li>
+        </ul>
+        <div class="content-price">
+          
+        </div>
+      </div>
+      <div class="pricing-content">
+        <ul class="list">
+          <li class="pro">PRO</li>
+          <li><strong>10GB</strong> Storage</li>
+          <li><strong>10</strong> Emails</li>
+          <li><strong>10</strong> Domains</li>
+          <li><strong>Endless</strong> Support</li>
+          <li><strong>$</strong>10 <br><br><span>per month</span></li>
+          
+          <li style="background-color: #f0f0f0;">
+            <button style="padding: 15px;background-color: #009688; color: white; border: none; cursor: pointer;"><i class="fa-solid fa-check"></i>Sign Up</button>
+          </li>
+        </ul>
+        <div class="content-price">
+          
+        </div>
+      </div>
+      <div class="pricing-content">
+        <ul class="list">
+          <li class="premium">Premium</li>
+          <li><strong>10GB</strong> Storage</li>
+          <li><strong>10</strong> Emails</li>
+          <li><strong>10</strong> Domains</li>
+          <li><strong>Endless</strong> Support</li>
+          <li><strong>$</strong>10 <br><br><span>per month</span></li>
+          
+          <li style="background-color: #f0f0f0;">
+            <button style="padding: 15px; background-color: #009688; color: white; border: none; cursor: pointer;"><i class="fa-solid fa-check"></i>Sign Up</button>
+          </li>
+        </ul>
+        <div class="content-price">
+          
+        </div>
+      </div>
+    </div>
+
+
+    <div class="contact">
+      <div class="left-contact">
+        <p style="font-size: x-large; text-decoration: underline #37ada3 5px;">Contact Us</p>
+        <h3 style="font-weight: 200;">Adress</h3>
+        <p style="font-size: 13px;">Swing by for a cup of coffee, or whatever.</p>
+        <p style="font-size: 13px;"><i class="fa-solid fa-location-dot fa-xl" style="color:#37ada3"></i>Chicago,US</p>
+        <p style="font-size: 13px;"><i class="fa-solid fa-phone fa-xl" style="color:#37ada3;"></i>+555 555 5555</p>
+        <p style="font-size: 13px;"><i class="fa-regular fa-envelope fa-xl" style="color:#37ada3;"></i>test@gmail.com</p>
+      </div>
+
+      <div class="right-content">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name">
+      </div>
+      <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email">
+      </div>
+      <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4"></textarea>
+      </div>
+      <div class="checkbox-group">
+        <div style="display: flex;  align-items: center; width: 100%;">
+          <input style="transform: scale(1.6); margin-left: 5px;" type="checkbox" id="like" name="like">
+          <label style="flex: 1;" for="like">I Like it!</label>
+          <button style="margin-right: 10px;" type="submit" class="submit-button">Send</button>
+        </div>
+      </div>
+  </div>
+      </div>
+  
+
+<div class="image">
+  <img style="width: 100%;"  src="./images/map.jpg" alt="">
+</div>
+
+<footer class="footer">
+  
+ 
+  <div class="social-icons">
+    <h4 style="color: white; font-weight: 200; font-size: 15px; margin-bottom: 10px;">Follow Us</h4>
+  <a href="#"><i class="fab fa-facebook-f"></i></a>
+  <a href="#"><i class="fab fa-twitter"></i></a>
+  <a href="#"><i class="fab fa-google-plus-g"></i></a>
+  <a href="#"><i class="fab fa-instagram"></i></a>
+  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+  <div class="footer-text">
+   <span style="color:white">Powered by</span>  <a href="https://www.w3schools.com/w3css/" style="margin-top: 20px;" target="_blank">w3.css</a>
+  </div>
+</div>
+
+</footer>
+
+    <script
+      src="https://kit.fontawesome.com/6cc17eda7a.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
